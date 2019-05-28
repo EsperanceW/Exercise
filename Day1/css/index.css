@@ -1,0 +1,89 @@
+#container{
+	width: 1510px;
+	height: 740px;
+	background: url('../imagines/img1.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+header{
+	width: 100%;
+	height: 12%;
+	background-color: rgba(255,255,255,0.3);
+}
+.list{
+	background-color: rgba(255,255,255,0);
+	width: 600px;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+	position: relative;
+	left: 300px;
+	top: 29px;
+	line-height: 50px;
+
+}
+.list > li{
+	cursor: pointer;
+}
+.list > li:hover{
+	background-color: #C4C5C3;
+}
+#title{
+	width: 150px;
+	height: 70px;
+	background-color: rgba(255,255,255,0);
+	position: relative;
+	left: 1050px;
+	bottom: 50px;
+	font-size: 70px;
+	text-align: center;
+	font-family: '华文彩云';
+}
+#middle{
+	width: 100%;
+	height: 72%;
+	background-color: rgba(255,255,255,0);
+}
+#top{
+	width: 600px;
+	height: 100px;
+	background-color: rgba(255,255,255,0.3);
+	position: relative;
+	left: 450px;
+	top: 10px;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 100px;
+	text-align: center;
+	border-radius: 8px;
+	border: 1px;
+	border-style: solid;
+}
+article{
+	width: 600px;
+	height: 400px;
+	background-color: rgba(255,255,255,0.5);
+	position: relative;
+	left: 450px;
+	top: 20px;
+	border: 1px;
+	border-style: solid;
+	border-radius: 8px;
+}
+article > h1{
+	padding-left: 20px;
+}
+article > p{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-indent: 2em;
+}
+footer{
+	width: 100%;
+	height: 16%;
+	background-color: rgba(255,255,255,0.3);
+	text-align: center;
+	line-height: 55px;
+}
