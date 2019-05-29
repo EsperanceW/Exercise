@@ -1,0 +1,136 @@
+#container{
+	width: 1520px;
+	height: 735px;
+}
+header{
+	width: 100%;
+	height: 5%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.list{
+	width: 55px;
+	height: 25px;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 14px;
+	cursor: pointer;
+}
+.list:hover{
+	color: blue;
+}
+#option{
+	width: 65px;
+	height: 25px;
+	background-color: #3385FF;
+	font-size: 14px;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+	cursor: pointer;
+}
+#middle{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+#top{
+	width: 680px;
+	height: 250px;
+}
+#logo{
+	width: 100%;
+	height: 85%;
+	background-image: url('../imagines/img1.jpg');
+	background-size: 680px 200px;
+}
+#word{
+	width: 100%;
+	height: 15%;
+	display: flex;
+}
+#left{
+	width: 84%;
+	height: 100%;
+}
+input{
+	width: 567px;
+	height: 31px;
+}
+#right{
+	width: 16%;
+	height: 100%;
+	background-color: #3385FF;
+	text-align: center;
+	font-size: 17px;
+	line-height: 35px;
+	color: white;
+	cursor: pointer;
+}
+#right:hover{
+	background-color: #0289D2;
+}
+#bottom{
+	width: 80px;
+	height: 100px;
+}
+#qr{
+	width: 80px;
+	height: 80px;
+	background-image: url('../imagines/img2.jpg');
+	background-size: 80px 80px;
+}
+#character{
+	width: 80px;
+	height: 20px;
+	font-size: 16px;
+	font-family: '黑体';
+	text-align: center;
+	font-weight: 600;
+	color: #4C4C4C;
+}
+footer{
+	width: 100%;
+	height: 15%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#footcontainer1{
+	width: 400px;
+	height: 20px;
+	margin-top: 20px;
+	display: flex;
+}
+.sublist{
+	width: 25%;
+	height: 100%;
+	font-size: 13px;
+	text-align: center;
+	color: grey;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#footcontainer2{
+	width: 600px;
+	height: 20px;
+	margin-top: 10px;
+	display: flex;
+}
+#subleft{
+	width: 65%;
+	height: 100%;
+	font-size: 13px;
+	color: grey;
+}
+#subright{
+	width: 35%;
+	height: 100%;
+	font-size: 13px;
+	color: grey;
+	text-decoration: underline;
+}
